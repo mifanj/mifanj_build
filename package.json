@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "web app creat workflow cli",
   "main": "lib/index.js",
+  "bin": "bin/mifanj-build.js",
   "repository": "https://github.com/mifanj/mifanj_build",
   "author": "mifanj",
+  "files": [
+    "lib",
+    "bin"
+  ],
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.13.16",
